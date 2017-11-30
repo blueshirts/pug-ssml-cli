@@ -3,12 +3,22 @@
 'use strict'
 
 const pkg = require('./package.json')
-const pugssml_pkg = require('pug-ssml/package.json')
+
 // const fs = require('fs')
 // const path = require('path')
 const program = require('commander')
 const chalk = require('chalk')
-const pug = require('pug-ssml')
+
+// Require pug-ssml.
+let pug
+try {
+  pug = require('pug-ssml')
+} catch (err) {
+  console.log(chalk.red('Unable to load pug-ssml module, please ensure it is installed.'))
+  console.dir(err)
+  return
+}
+const pugssml_pkg = require('pug-ssml/package.json')
 
 // const basename = path.basename
 // const dirname = path.dirname

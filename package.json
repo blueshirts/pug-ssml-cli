@@ -1,0 +1,41 @@
+{
+  "name": "pug-ssml-cli",
+  "version": "0.0.1",
+  "description": "A command line interpreter for the Pug SSML library to compile templates into a Node module.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "pug-ssml": "./index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueshirts/pug-ssml-cli.git"
+  },
+  "keywords": [
+    "pug",
+    "ssml",
+    "cli",
+    "alexa",
+    "speech"
+  ],
+  "author": "Anthony Milano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blueshirts/pug-ssml-cli/issues"
+  },
+  "homepage": "https://github.com/blueshirts/pug-ssml-cli#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.12.2",
+    "pug-ssml": "0.0.9"
+  }
+}

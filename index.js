@@ -72,7 +72,7 @@ if (!program.templates) {
 }
 
 const options = {
-  basedir: "./node_modules/pug-ssml-cli",
+  basedir: "./node_modules/pug-ssml",
   compileDebug: program.debug,
   pretty:  program.pretty === true
 }

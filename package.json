@@ -9,7 +9,6 @@
   "bin": {
     "pug-ssml": "./index.js"
   },
-  "preferGlobal": true,
   "scripts": {
     "test": "mocha"
   },

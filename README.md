@@ -21,3 +21,17 @@ stay self contained within your project directory.
 ```bash
 ./node_modules/.bin/pug-ssml --templates ./templates
 ```
+
+## ToDo
+
+Mixins
+- Determine a better way of importing mixins.
+
+Testing
+- Add test cases and code coverage.
+
+CI
+- Add travis support.
+
+Terminal input
+- Accept input from the terminal.

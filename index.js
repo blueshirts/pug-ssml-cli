@@ -84,7 +84,7 @@ if (!program.templates) {
 const options = {
   basedir: "./node_modules/pug-ssml",
   compileDebug: program.debug,
-  pretty:  program.pretty === true
+  pretty:  program.pretty === 'true' || program.pretty === true
 }
 
 const file = program.file ? program.file : 'ssml-speech.js'

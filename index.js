@@ -93,6 +93,8 @@ const output = program.out ? program.out : '.'
 try {
   pug.precompile(program.templates, options)
   log(chalk.green(`Successfully created module: ${output}/${file}`))
+  return 0
 } catch (err) {
   console.log(chalk.red(`Exception while compiling templates: ${err}`))
+  return 1
 }

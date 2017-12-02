@@ -1,6 +1,6 @@
 {
   "name": "pug-ssml-cli",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A command line interpreter for the Pug SSML library to compile templates into a Node module.",
   "main": "index.js",
   "directories": {
@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "chalk": "^2.3.0",
-    "commander": "^2.12.2"
+    "commander": "^2.12.2",
+    "pug-ssml": "0.0.14"
   }
 }
